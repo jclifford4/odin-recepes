@@ -1,0 +1,86 @@
+
+body {
+    background-color: whitesmoke;
+}
+
+.header-container {
+    height: 60px;
+    background-color: lightblue;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-right: 0px;
+}
+
+.list-container {
+    background-color: darkgray;
+    margin-left: 290px;
+    margin-right: 250px;
+}
+
+.food-list {
+    font-size: 28px;
+}
+
+.div-title,
+.div-description,
+.div-steps,
+.div-ingredients {
+    background-color: beige;
+}
+
+.div-title,
+.div-description h2,
+.div-steps h2,
+.div-ingredients h2 {
+    background-color: royalblue;
+}
+
+
+/* General Group for smoothie title colors */
+.div-title.smoothie,
+.div-description.smoothie h2,
+.div-steps.smoothie h2,
+.div-ingredients.smoothie h2 {
+    background-color: palevioletred;
+}
+
+/* General Group for pizza title colors */
+.div-title.pizza,
+.div-description.pizza h2,
+.div-steps.pizza h2,
+.div-ingredients.pizza h2 {
+    background-color: burlywood;
+}
+
+/* General Group for smoothie title colors */
+.div-title.lasagna,
+.div-description.lasagna h2,
+.div-steps.lasagna h2,
+.div-ingredients.lasagna h2 {
+    background-color: chocolate;
+}
+
+.div-title h1 {
+    text-align: center;
+}
+
+.img-smoothie,
+.img-pizza,
+.img-lasagna {
+    height: auto;
+    width: 400px;
+}
+
+.img-div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
